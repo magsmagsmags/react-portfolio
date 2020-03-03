@@ -15,8 +15,9 @@ class Projects extends Component {
                 <div className="projects-grid">
                     {/* Project 1 */}
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url() center / cover' }} >Password Generator</CardTitle>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://magsmagsmags.github.io/cosmos/assets/images/password_mockup.png) center / cover' }} > </CardTitle>
                         <CardText>
+                            <p>Password Generator</p>
                             A web application that allows a user to generate a random password. Users may select one or more of the following requirement parameters for the characters of their password: lowercase letters, uppercase letters, nnumbers, special characters. Users can then press a button to copy the randomly generated password to their clipboard for easy pasting! The application is responsive.
             </CardText>
                         <CardActions border>
@@ -30,7 +31,7 @@ class Projects extends Component {
 
                     {/* Project 2 */}
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url() center / cover' }} >Cosmic Astrologizer</CardTitle>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://magsmagsmags.github.io/cosmos/assets/images/cosmic_mockup.png) center / cover' }} > </CardTitle>
                         <CardText>
                             A web application from scratch that allows the user to select from a list of astrological zodiac signs and then display information to the user that is specific to that sign. To acheive this, we will utilize API calls to get Mercury retrograde information, display Spotify playlists, and disdplay a photo of the day from NASA.
             </CardText>
@@ -45,8 +46,9 @@ class Projects extends Component {
 
                     {/* Project 3 */}
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url() center / cover' }} >Corporate Tracker</CardTitle>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://magsmagsmags.github.io/cosmos/assets/images/tracker.gif) center / cover' }} ></CardTitle>
                         <CardText>
+                            <p>Employee Information Management System</p>
                             Developers are often tasked with creating interfaces that make it easy for non-developers to view and interact with information stored in databases. Often these interfaces are known as Content Management Systems. This application is a solution for managing a company's employees using node, inquirer, and MySQL.
             </CardText>
                         <CardActions border>
