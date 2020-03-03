@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 class App extends Component {
   render() {
     return (
-      <div className="demo-big-content">
+      <div className="demo-big-content" style={{ color: "#4d4e7c" }} >
         <Layout>
           <Header className="header-color" title={<Link style={{ textDecoration: 'none', color: 'white' }} to="/">MyPortfolio</Link>} scroll>
             <Navigation>
