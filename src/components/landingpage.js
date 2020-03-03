@@ -41,7 +41,7 @@ class Landing extends Component {
                                 {/* Demo Site */}
                                 <a href="https://magsmagsmags.github.io/CosmicAstrologizer/" rel="noopener noreferrer" target="_blank">
                                     <img
-                                        src="../favicon.ico"
+                                        src="./favicon.ico"
                                         alt="avatar"
                                     />
                                 </a>
