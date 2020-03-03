@@ -15,7 +15,7 @@ class Projects extends Component {
                 <div className="projects-grid">
                     {/* Project 1 */}
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >Password Generator</CardTitle>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url() center / cover' }} >Password Generator</CardTitle>
                         <CardText>
                             A web application that allows a user to generate a random password. Users may select one or more of the following requirement parameters for the characters of their password: lowercase letters, uppercase letters, nnumbers, special characters. Users can then press a button to copy the randomly generated password to their clipboard for easy pasting! The application is responsive.
             </CardText>
@@ -30,7 +30,7 @@ class Projects extends Component {
 
                     {/* Project 2 */}
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >Cosmic Astrologizer</CardTitle>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url() center / cover' }} >Cosmic Astrologizer</CardTitle>
                         <CardText>
                             A web application from scratch that allows the user to select from a list of astrological zodiac signs and then display information to the user that is specific to that sign. To acheive this, we will utilize API calls to get Mercury retrograde information, display Spotify playlists, and disdplay a photo of the day from NASA.
             </CardText>
@@ -45,13 +45,13 @@ class Projects extends Component {
 
                     {/* Project 3 */}
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >Corporate Tracker</CardTitle>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url() center / cover' }} >Corporate Tracker</CardTitle>
                         <CardText>
                             Developers are often tasked with creating interfaces that make it easy for non-developers to view and interact with information stored in databases. Often these interfaces are known as Content Management Systems. This application is a solution for managing a company's employees using node, inquirer, and MySQL.
             </CardText>
                         <CardActions border>
                             <Button colored href="https://github.com/magsmagsmags/employee_tracker">GitHub</Button>
-                            <Button colored href="https://github.com/magsmagsmags/employee_tracker">Clone this repo and run in your terminal!</Button>
+                            <Button colored href="https://github.com/magsmagsmags/employee_tracker">Clone & run in terminal</Button>
                         </CardActions>
                         <CardMenu style={{ color: '#fff' }}>
                             <IconButton name="share" />
@@ -61,45 +61,45 @@ class Projects extends Component {
 
 
             )
-            // } else if(this.state.activeTab === 1) {
-            //   return (
-            //     <div><h1>This is Angular</h1></div>
-            //   )
-            // } else if(this.state.activeTab === 2) {
-            //   return (
-            //     <div><h1>This is VueJS</h1></div>
-            //   )
-            // } else if(this.state.activeTab === 3) {
-            //   return (
-            //     <div><h1>This is MongoDB</h1></div>
-            //   )
-            // }
-
-        }
-
-
-
-        render() {
+        } else if (this.state.activeTab === 1) {
             return (
-                <div>
-                    <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-                        <Tab>React</Tab>
-                        <Tab>Angular</Tab>
-                        <Tab>VueJS</Tab>
-                        <Tab>MongoDB</Tab>
-                    </Tabs>
-
-
-                    <Grid>
-                        <Cell col={12}>
-                            <div className="content">{this.toggleCategories()}</div>
-                        </Cell>
-                    </Grid>
-
-
-                </div>
+                <div></div>
+            )
+        } else if (this.state.activeTab === 2) {
+            return (
+                <div></div>
+            )
+        } else if (this.state.activeTab === 3) {
+            return (
+                <div></div>
             )
         }
+
     }
 
-    export default Projects;
+
+
+    render() {
+        return (
+            <div>
+                <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
+                    <Tab>  </Tab>
+                    <Tab>  </Tab>
+                    <Tab>  </Tab>
+                    <Tab>  </Tab>
+                </Tabs>
+
+
+                <Grid>
+                    <Cell col={12}>
+                        <div className="content">{this.toggleCategories()}</div>
+                    </Cell>
+                </Grid>
+
+
+            </div>
+        )
+    }
+}
+
+export default Projects;

@@ -10,7 +10,7 @@ class Contact extends Component {
                     <Cell col={6}>
                         <h2>MAGS KIEFER</h2>
                         <img
-                            src="../public/avatar1.png"
+                            src="./avatar1.png"
                             alt="avatar"
                             style={{ height: '250px' }}
                         />
@@ -27,31 +27,30 @@ class Contact extends Component {
                                     <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton' }}>
                                         <i className="fa fa-phone-square" aria-hidden="true" />
                                         (413) 426-7104
-                  </ListItemContent>
+              </ListItemContent>
                                 </ListItem>
+
 
                                 <ListItem>
                                     <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton' }}>
                                         <i className="fa fa-envelope" aria-hidden="true" />
                                         sheakiefer@gmail.com
-                  </ListItemContent>
-
-                                    <ListItem>
-                                        <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton' }}>
-                                            <i className="fa fa-envelope" aria-hidden="true" />
-                                            https://www.linkedin.com/in/sheakiefer/
-                  </ListItemContent>
-                                    </ListItem>
-
-
-
+              </ListItemContent>
                                 </ListItem>
+
+                                <ListItem>
+                                    <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton' }}>
+                                        <i className="fa fa-envelope" aria-hidden="true" />
+                                        https://www.linkedin.com/in/sheakiefer/
+              </ListItemContent>
+                                </ListItem>
+
 
                             </List>
                         </div>
                     </Cell>
                 </Grid>
-            </div>
+            </div >
         )
     }
 }
