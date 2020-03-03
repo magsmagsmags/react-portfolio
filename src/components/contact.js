@@ -18,7 +18,7 @@ class Contact extends Component {
 
                     </Cell>
                     <Cell col={6}>
-                        <h2>Contact Me</h2>
+                        <h2>Let's Connect</h2>
                         <hr />
 
                         <div className="contact-list">
@@ -35,6 +35,16 @@ class Contact extends Component {
                                         <i className="fa fa-envelope" aria-hidden="true" />
                                         sheakiefer@gmail.com
                   </ListItemContent>
+
+                                    <ListItem>
+                                        <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton' }}>
+                                            <i className="fa fa-envelope" aria-hidden="true" />
+                                            https://www.linkedin.com/in/sheakiefer/
+                  </ListItemContent>
+                                    </ListItem>
+
+
+
                                 </ListItem>
 
                             </List>
