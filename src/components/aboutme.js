@@ -8,6 +8,13 @@ class About extends Component {
                 <div><h1>MAGS KIEFER</h1></div>
 
                 <img
+                    src="./headshot.jpg"
+                    alt="avatar"
+                    style={{ height: '250px' }}
+                />
+                <br></br>
+                <br></br>
+                <img
                     src="./avatar1.png"
                     alt="avatar"
                     style={{ height: '250px' }}
