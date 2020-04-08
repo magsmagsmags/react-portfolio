@@ -13,6 +13,7 @@ class Projects extends Component {
         if (this.state.activeTab === 0) {
             return (
                 <div className="projects-grid">
+                    <br></br>
                     {/* Project 1 */}
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://magsmagsmags.github.io/cosmos/assets/images/password_mockup.png) center / cover' }} > </CardTitle>
@@ -28,7 +29,7 @@ class Projects extends Component {
                             <IconButton name="share" />
                         </CardMenu>
                     </Card>
-
+                    <br></br>
                     {/* Project 2 */}
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://magsmagsmags.github.io/cosmos/assets/images/cosmic_mockup.png) center / cover' }} > </CardTitle>
@@ -43,7 +44,7 @@ class Projects extends Component {
                             <IconButton name="share" />
                         </CardMenu>
                     </Card>
-
+                    <br></br>
                     {/* Project 3 */}
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://magsmagsmags.github.io/cosmos/assets/images/tracker.gif) center / cover' }} ></CardTitle>

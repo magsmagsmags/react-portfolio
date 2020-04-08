@@ -9,7 +9,7 @@ class About extends Component {
 
                 <img
                     src="./headshot.jpg"
-                    alt="avatar"
+                    alt="headshot"
                     style={{ height: '250px' }}
                 />
                 <br></br>
