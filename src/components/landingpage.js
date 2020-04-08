@@ -8,9 +8,10 @@ class Landing extends Component {
             <div style={{ width: '100%', margin: 'auto' }}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
-                        <h2>MAGS KIEFER</h2>
+                        <h1> WELCOME</h1>
+                        <h2>GLAD YOU'RE HERE</h2>
                         <img
-                            src="./avatar1.png"
+                            src="./logo-mags-k-dark.png"
                             alt="avatar"
                             style={{ height: '250px' }}
                         />
@@ -24,7 +25,7 @@ class Landing extends Component {
 
                             <hr />
 
-                            <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
+                            <h4>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</h4>
 
                             <div className="social-links">
 
