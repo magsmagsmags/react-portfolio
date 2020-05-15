@@ -15,7 +15,7 @@ class Contact extends Component {
                             alt="avatar"
                             style={{ height: '250px' }}
                         />
-                        <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>My name is Mags Kiefer. I'm an experienced Project Manager, Product Manager, a former Chief of Staff for a SaaS company, and a Full Stack Developer. Located in Austin, Texas and open to local and remote opportunities! I'd love to get in touch</p>
+                        <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>My name is Mags Kiefer. I'm an experienced Project Manager, Product Manager, and a Full Stack Developer. In 2020 I earned a certificate in Full Stack Development from the University of Texas. I developed skills in JavaScript, jQuery, Node.js, React, MongoDB, and SQL. Prior to earning this certificate, I was the Chief of Staff for a SaaS company. I managed every step of the software development process, including contract negotiations, creating a Project Plan, technical project management, Agile development sprints, and presenting reports to project teams & stakeholders. I'm located in Austin, Texas and open to local and remote opportunities.</p>
 
                     </Cell>
                     <Cell col={6}>

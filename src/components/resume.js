@@ -22,7 +22,7 @@ class Resume extends Component {
                         <h2 style={{ paddingTop: '2em' }}>Mags Kiefer</h2>
                         <h4 style={{ color: 'grey' }}>Project Manager and Developer</h4>
                         <hr style={{ borderTop: '5px solid #4f0fe2', width: '50%' }} />
-                        <p>My name is Mags Kiefer. I'm an experienced Project Manager, Product Manager, a former Chief of Staff for a SaaS company, and a Full Stack Developer. Located in Austin, Texas and open to local and remote opportunities. </p>
+                        <p>My name is Mags Kiefer. I'm an experienced Project Manager, Product Manager, and a Full Stack Developer. In 2020 I earned a certificate in Full Stack Development from the University of Texas. I developed skills in JavaScript, jQuery, Node.js, React, MongoDB, and SQL. Prior to earning this certificate, I was the Chief of Staff for a SaaS company. I managed every step of the software development process, including contract negotiations, creating a Project Plan, technical project management, Agile development sprints, and presenting reports to project teams & stakeholders. I'm located in Austin, Texas and open to local and remote opportunities. </p>
                         <hr style={{ borderTop: '5px solid #4f0fe2', width: '50%' }} />
                         <h5>Location</h5>
                         <p>Austin, TX </p>
@@ -92,6 +92,7 @@ class Resume extends Component {
                         <Skills
                             skill="Front End Development"
                             progress={75}
+                        />
                         <Skills
                             skill="Back End Development"
                             progress={33}
