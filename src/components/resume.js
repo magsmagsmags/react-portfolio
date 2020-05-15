@@ -21,9 +21,9 @@ class Resume extends Component {
 
                         <h2 style={{ paddingTop: '2em' }}>Mags Kiefer</h2>
                         <h4 style={{ color: 'grey' }}>Project Manager and Developer</h4>
-                        <hr style={{ borderTop: '5px solid #6f697d', width: '50%' }} />
-                        <p>My name is Mags Kiefer. I'm an experienced Project Manager, Product Manager, a former Chief of Staff for a SaaS company, and a Full Stack Developer. Located in Austin, Texas and open to local and remote opportunities!</p>
-                        <hr style={{ borderTop: '5px solid #6f697d', width: '50%' }} />
+                        <hr style={{ borderTop: '5px solid #4f0fe2', width: '50%' }} />
+                        <p>My name is Mags Kiefer. I'm an experienced Project Manager, Product Manager, a former Chief of Staff for a SaaS company, and a Full Stack Developer. Located in Austin, Texas and open to local and remote opportunities. </p>
+                        <hr style={{ borderTop: '5px solid #4f0fe2', width: '50%' }} />
                         <h5>Location</h5>
                         <p>Austin, TX </p>
                         <h5>Phone</h5>
@@ -32,7 +32,7 @@ class Resume extends Component {
                         <p>sheakiefer@gmail.com</p>
                         <h5>Web</h5>
                         <p>https://www.linkedin.com/in/sheakiefer/</p>
-                        <hr style={{ borderTop: '5px solid #6f697d', width: '50%' }} />
+                        <hr style={{ borderTop: '5px solid #4f0fe2', width: '50%' }} />
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
                         <h2>Education</h2>
@@ -51,7 +51,7 @@ class Resume extends Component {
                             schoolName="University of Texas at Austin"
                             schoolDescription="Certification in skills and competencies required to be a Full Stack Developer"
                         />
-                        <hr style={{ borderTop: '5px solid #6f697d' }} />
+                        <hr style={{ borderTop: '5px solid #4f0fe2' }} />
 
                         <h2>Experience</h2>
 
@@ -70,32 +70,31 @@ class Resume extends Component {
                         />
 
                         <Experience
-                            startYear={2015}
-                            endYear={2016}
-                            jobName="Client Services and Sales Associate"
-                            jobDescription="Blue Star Payment Solutions || A Payment Processing Company that launched a web and mobile app for a nonprofit donations."
+                            startYear={2014}
+                            endYear={2015}
+                            jobName="Instructor of Statistics and Research Methods"
+                            jobDescription="The University of Wisconsin - Madison|| A full time faculty assistant position as an instructor of collegiate Statistics and Research Methods in Psychology."
                         />
-                        <hr style={{ borderTop: '5px solid #6f697d' }} />
+                        <hr style={{ borderTop: '5px solid #4f0fe2' }} />
                         <h2>Skills</h2>
                         <Skills
-                            skill="javascript"
-                            progress={50}
+                            skill="Technical Project Management"
+                            progress={95}
                         />
                         <Skills
-                            skill="HTML/CSS"
-                            progress={80}
+                            skill="Agile Software Development"
+                            progress={100}
                         />
                         <Skills
-                            skill="NodeJS"
-                            progress={50}
+                            skill="Client and Stakeholder Communication"
+                            progress={100}
                         />
                         <Skills
-                            skill="React"
-                            progress={50}
-                        />
+                            skill="Front End Development"
+                            progress={75}
                         <Skills
-                            skill="MongoDB"
-                            progress={80}
+                            skill="Back End Development"
+                            progress={33}
                         />
 
 

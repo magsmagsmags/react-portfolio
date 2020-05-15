@@ -5,6 +5,7 @@ import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 class Contact extends Component {
     render() {
         return (
+
             <div className="contact-body">
                 <Grid className="contact-grid">
                     <Cell col={6}>
@@ -14,7 +15,7 @@ class Contact extends Component {
                             alt="avatar"
                             style={{ height: '250px' }}
                         />
-                        <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>I'd love to get in touch</p>
+                        <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>My name is Mags Kiefer. I'm an experienced Project Manager, Product Manager, a former Chief of Staff for a SaaS company, and a Full Stack Developer. Located in Austin, Texas and open to local and remote opportunities! I'd love to get in touch</p>
 
                     </Cell>
                     <Cell col={6}>
@@ -24,7 +25,7 @@ class Contact extends Component {
                         <div className="contact-list">
                             <List>
                                 <ListItem>
-                                    <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton' }}>
+                                    <ListItemContent style={{ fontSize: '18px', fontFamily: 'Arial' }}>
                                         <i className="fa fa-phone-square" aria-hidden="true" />
                                         (413) 426-7104
               </ListItemContent>
@@ -32,14 +33,14 @@ class Contact extends Component {
 
 
                                 <ListItem>
-                                    <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton' }}>
+                                    <ListItemContent style={{ fontSize: '18px', fontFamily: 'Arial' }}>
                                         <i className="fa fa-envelope" aria-hidden="true" />
                                         sheakiefer@gmail.com
               </ListItemContent>
                                 </ListItem>
 
                                 <ListItem>
-                                    <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton' }}>
+                                    <ListItemContent style={{ fontSize: '18px', fontFamily: 'Arial' }}>
                                         <i className="fa fa-envelope" aria-hidden="true" />
                                         https://www.linkedin.com/in/sheakiefer/
               </ListItemContent>

@@ -20,7 +20,7 @@ class App extends Component {
           <Drawer title={<Link style={{ textDecoration: 'none', color: '#6f697d' }} to="/">MAGS K DEV</Link>}>
             <Navigation>
               <Link to="/resume">Resume</Link>
-              <Link to="/aboutme">About Me</Link>
+
               <Link to="/projects">Projects</Link>
               <Link to="/contact">Contact</Link>
             </Navigation>

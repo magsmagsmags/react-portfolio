@@ -18,10 +18,10 @@ THEN they are able to learn about the developer, find contact information, and f
 
 ## Screenshot
 
-![screenshot](/src/ss1.png)
-![screenshot](/src/ss2.png)
-![screenshot](/src/ss3.png)
-![screenshot](/src/ss4.png)
+![screenshot](/src/ss-new5.png)
+![screenshot](/src/ss-new6.png)
+![screenshot](/src/ss-new7.png)
+![screenshot](/src/ss-new8.png)
 
 ## Links
 
